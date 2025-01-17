@@ -1,6 +1,6 @@
 # Trino with Iceberg, Postgres, and MinIO
 
-This is an example using Trino with an Iceberg connector, a Postgres metastore, and MinIO for object storage.
+This is the datalake setup using Trino with an Iceberg connector, Postgres as metastore, and MinIO for object storage.
 
 Start everything up:
 ```shell
