@@ -4,16 +4,16 @@ This is the datalake setup using Trino with an Iceberg connector, Postgres as me
 
 Start everything up:
 ```shell
-docker compose up
+docker-compose up
 ```
 
 Connect to the Trino controller to execute some SQL:
 ```shell
-docker compose exec controller trino
+docker-compose exec controller trino
 ```
 
 Stop and remove the containers and network:
 ```shell
-docker compose down
+docker-compose down
 ```
 
