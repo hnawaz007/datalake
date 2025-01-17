@@ -1,3 +1,5 @@
+![](datalake.jpg)
+
 # Trino with Iceberg, Postgres, and MinIO
 
 This is the datalake setup using Trino with an Iceberg connector, Postgres as metastore, and MinIO for object storage.
