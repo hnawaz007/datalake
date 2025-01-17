@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: sales
+    description: contains product sales information.

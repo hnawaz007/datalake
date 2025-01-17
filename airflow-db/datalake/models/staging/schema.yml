@@ -1,0 +1,25 @@
+
+version: 2
+
+models:
+  - name: stg_sales
+    description: "sales table"
+    columns:
+      - name: productcategoryname
+        description: "contains product category"
+        data_tests:
+          - not_null
+      - name: productsubcategoryname
+        description: "contains product sub-category"
+        data_tests:
+          - not_null
+      - name: productname
+        description: "contains product name"
+        data_tests:
+          - not_null
+      - name: salesterritorycountry
+        description: "contains territory name"
+      - name: salesamount
+        description: "contains sales amount for order"
+      - name: orderdate
+        description: "contains order date"

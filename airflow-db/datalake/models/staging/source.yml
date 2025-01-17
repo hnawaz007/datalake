@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: src_trino
+    schema: raw
+    database: iceberg
+
+    tables:
+      - name: sales
+        identifier: sales

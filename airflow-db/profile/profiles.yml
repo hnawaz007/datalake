@@ -1,0 +1,28 @@
+datalake:
+  outputs:
+
+    dev:
+      type: trino
+      method: none 
+      threads: 4
+      host: your-host-ip-address
+      port: 8080
+      user: trino
+      pass: ''
+      database: iceberg
+      schema: raw
+
+
+    prod:
+      type: trino
+      method: none 
+      threads: 4
+      host: your-host-ip-address
+      port: 8080
+      user: trino
+      pass: ''
+      database: iceberg
+      schema: raw
+
+
+  target: dev
