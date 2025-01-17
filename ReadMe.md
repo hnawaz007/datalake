@@ -17,3 +17,16 @@ Stop and remove the containers and network:
 docker-compose down
 ```
 
+# Airflow Setup
+
+We build a custom image for Airflow. Dockerfile and docker-compose.yml file are available in this repo.
+
+To build the image:
+```shell
+docker build -t airflow-trino -f Dockerfile . --no-cache
+```
+
+Start everything up:
+```shell
+docker-compose up -d
+```
